@@ -1,0 +1,7 @@
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\bin\Debug\RPSTest.exe.config
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\bin\Debug\RPSTest.exe
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\bin\Debug\RPSTest.pdb
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\obj\Debug\RPSTest.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\obj\Debug\RPSTest.csproj.CoreCompileInputs.cache
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\obj\Debug\RPSTest.exe
+C:\Users\carte\source\repos\RockPaperScissors\RPSTest\obj\Debug\RPSTest.pdb

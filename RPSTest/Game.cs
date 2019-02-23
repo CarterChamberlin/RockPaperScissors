@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockPaperScissors
+namespace RPSTest
 {
     class Game
     {
@@ -31,7 +31,7 @@ namespace RockPaperScissors
             p2.move = move2;
         }
 
-        void checkRPS()
+        public void checkRPS()
         {
             if ((p1.move.Equals("ROCK") && p2.move.Equals("SCISSORS")) || (p1.move.Equals("PAPER") && p2.move.Equals("ROCK")) || (p1.move.Equals("SCISSORS") && p2.move.Equals("PAPER")))
             {
@@ -43,6 +43,30 @@ namespace RockPaperScissors
             }
         }
 
+        public bool checkWinner()
+        {
+            if (p1.numWins == 3)
+            {
+                Console.WriteLine("Congratulations Player 1: {0}, you have won the game!", p1.userName);
+                return true;
+            }
+            else if (p2.numWins == 3)
+            {
+                Console.WriteLine("Congratulations Player 2: {0}, you have won the game!", p2.userName);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        
+
+        public string curentScore()
+        {
+            return String.Format("The current score is Player 1: {0} with {1} wins and Player 2: {2} with {3} wins.", p1.userName, p1.numWins, p2.userName, p2.numWins);
+        }
 
         void initScore()
         {
